@@ -1,0 +1,84 @@
+:root {
+  --colorBase: #312559;
+  --colorLetras: #0dc4d9;
+  --colorSegundo: #f28972;
+  --TamañoTitulos: 22px;
+}
+
+/* Tipografia */
+@font-face {
+  font-family: "Titulos";
+  src: url(/fonts/K2D-SemiBold.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Parrafos";
+  src: url(/fonts/K2D-Light.woff2) format("woff2");
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: var(--colorBase);
+}
+
+p{
+  font-family: "Parrafos";
+  color: var(--colorLetras);
+}
+/* HEADER */
+.logo_mallorcaG {
+  margin-top: 24px;
+}
+
+.Titulo {
+  font-family: "Titulos";
+  font-size: 28px;
+  color: var(--colorLetras);
+}
+
+/* Formulario */
+input {
+  padding: 15px;
+  border-radius: 12px;
+  width: 250px;
+  margin: 14px;
+}
+
+input::placeholder {
+  font-size: 13px;
+}
+
+.btn_envio {
+  background-color: #d91e1e;
+  border-radius: 16px;
+  width: 50%;
+  color: white;
+  font-family: "Parrafos";
+}
+
+.enlace_cursos{
+  font-size: 18px;
+  font-family: "Parrafos";
+  color: var(--colorLetras);
+}
+
+.enlace_cursos a{
+  text-decoration: none;
+  color: var(--colorLetras);
+}
+
+.visitanos{
+  color: white;
+  font-family: "Parrafos";
+}
+
+.rds{
+  margin-top: 28px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+}
