@@ -8,12 +8,12 @@
 /* Tipografia */
 @font-face {
   font-family: "Titulos";
-  src: url(/fonts/K2D-SemiBold.woff2) format("woff2");
+  src: url(../fonts/K2D-SemiBold.woff2) format("woff2");
 }
 
 @font-face {
   font-family: "Parrafos";
-  src: url(/fonts/K2D-Light.woff2) format("woff2");
+  src: url(../fonts/K2D-Light.woff2) format("woff2");
 }
 
 body {

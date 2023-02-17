@@ -8,12 +8,12 @@
 /* Tipografia */
 @font-face {
   font-family: "Titulos";
-  src: url(/fonts/K2D-SemiBold.woff2) format("woff2");
+  src: url(../fonts/K2D-SemiBold.woff2) format("woff2");
 }
 
 @font-face {
   font-family: "Parrafos";
-  src: url(/fonts/K2D-Light.woff2) format("woff2");
+  src: url(../fonts/K2D-Light.woff2) format("woff2");
 }
 
 body {
@@ -74,10 +74,11 @@ option{
   font-family: "Parrafos";
 }
 
-.btn_envio {
+.btn {
   background-color: #d91e1e;
   border-radius: 16px;
-  width: 50%;
+  text-decoration: none;
+  padding: 10px 70px 10px 70px;
   color: white;
   font-family: "Parrafos";
 }
