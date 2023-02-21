@@ -29,7 +29,7 @@
   </header>
   <!-- Formulario -->
   <section class="formulario">
-    <form action="registrar.php" method="post">
+    <form action="php/registrar.php" method="POST">
       <input type="text" placeholder="Nombre.." name="nombre" />
       <br /><br /><br />
       <input type="text" placeholder="Apellidos.." name="apellidos" />
@@ -46,12 +46,9 @@
 
       <input type="submit" class="btn" name="registrar" value="Enviar">
     </form>
-    <?php
-    include("registrar.php");
-    ?>
     <section class="enlace_cursos">
       <p href="">TE GUSTARIA HACER UN CURSO?</p>
-      <a href="formativos.html">¡ECHALE UN VISTAZO!</a>
+      <a href="formativos.php">¡ECHALE UN VISTAZO!</a>
     </section>
     <p class="visitanos">Visítanos en:</p>
     <section class="rds">
